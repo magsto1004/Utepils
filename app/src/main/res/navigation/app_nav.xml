@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_nav"
+    app:startDestination="@id/mapFragment">
+
+    <fragment
+        android:id="@+id/drinkFragment"
+        android:name="com.example.utepils.Fragments.DrinkFragment"
+        android:label="fragment_drink"
+        tools:layout="@layout/fragment_drink" >
+        <action
+            android:id="@+id/action_from_drink_to_recipe"
+            app:destination="@id/drinkRecipeFragment" />
+        <action
+            android:id="@+id/action_drinkFragment_to_mapFragment"
+            app:destination="@id/mapFragment" />
+        <action
+            android:id="@+id/action_drinkFragment_to_weatherFragment"
+            app:destination="@id/weatherFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.example.utepils.Fragments.MapFragment"
+        android:label="fragment_map"
+        tools:layout="@layout/fragment_map">
+        <action
+            android:id="@+id/action_mapFragment_to_drinkFragment"
+            app:destination="@id/drinkFragment" />
+        <action
+            android:id="@+id/action_mapFragment_to_drinkRecipeFragment"
+            app:destination="@id/drinkRecipeFragment" />
+        <action
+            android:id="@+id/action_mapFragment_to_weatherFragment"
+            app:destination="@id/weatherFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/weatherFragment"
+        android:name="com.example.utepils.Fragments.WeatherFragment"
+        android:label="fragment_weather"
+        tools:layout="@layout/fragment_weather" >
+        <action
+            android:id="@+id/action_weatherFragment_to_drinkRecipeFragment"
+            app:destination="@id/drinkRecipeFragment" />
+        <action
+            android:id="@+id/action_weatherFragment_to_drinkFragment"
+            app:destination="@id/drinkFragment" />
+        <action
+            android:id="@+id/action_weatherFragment_to_mapFragment"
+            app:destination="@id/mapFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/drinkRecipeFragment"
+        android:name="com.example.utepils.Fragments.DrinkRecipeFragment"
+        android:label="fragment_drink_recipe"
+        tools:layout="@layout/fragment_drink_recipe" >
+        <action
+            android:id="@+id/action_from_recipe_to_drink"
+            app:destination="@id/drinkFragment" />
+        <action
+            android:id="@+id/action_drinkRecipeFragment_to_weatherFragment"
+            app:destination="@id/weatherFragment" />
+        <action
+            android:id="@+id/action_drinkRecipeFragment_to_mapFragment"
+            app:destination="@id/mapFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/permissionFragment"
+        android:name="com.example.utepils.Fragments.PermissionFragment"
+        android:label="PermissionFragment" >
+        <action
+            android:id="@+id/action_permissionFragment_to_mapFragment"
+            app:destination="@id/mapFragment" />
+    </fragment>
+</navigation>

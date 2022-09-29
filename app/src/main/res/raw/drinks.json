@@ -1,0 +1,416 @@
+{
+  "drinks": [
+    {
+      "id" : 0,
+      "name" : "Martini",
+      "pictureURL" : "https://www.thecocktaildb.com/images/media/drink/71t8581504353095.jpg",
+      "description" : "En uristet klassiker...",
+      "portion" : 1,
+      "tags" : ["krydret", "lett", "frisk"],
+      "ingredients" : [
+        "4cl vodka",
+        "2cl lys vermouth",
+        "Sitronskall eller oliven til pynt"
+      ],
+      "directions" : [
+        "Hell alkoholen i et glass med isbiter.",
+        "Rør godt.",
+        "Sil over i et cocktailglass.",
+        "Pynt og server."
+
+      ]
+    },  {
+      "id" : 1,
+      "name" : "Mojito",
+      "pictureURL" : "https://res.cloudinary.com/norgesgruppen/images/c_scale,dpr_auto,f_auto,q_auto:eco,w_1600/h7surb4lgb2d4gzio79z/virgin-mojito",
+      "description" : "Perfekt i solen!",
+      "portion" : 1,
+      "tags" : ["søt", "lett", "frisk", "sur", "sprudlende"],
+      "ingredients" : [
+        "4cl hvit rom",
+        "2 ss sukker",
+        "mynte",
+        "limebåt",
+        "sodavann"
+      ],
+      "directions" : [
+        "Knus mynten med sukkeret",
+        "Ha mynten og rom i et glass",
+        "Press ut saften av limebåten",
+        "Topp opp med sodavann",
+        "Pynt med en kvast mynte og en limebåt"
+      ]
+    }, {
+      "id" : 2,
+      "name" : "Dark and stormy",
+      "pictureURL" : "https://www.thecocktaildb.com/images/media/drink/t1tn0s1504374905.jpg",
+      "description" : "Spiced cold goodness!",
+      "portion" : 1,
+      "tags" : ["krydret", "lett", "søt", "sprudlende"],
+      "ingredients" : [
+        "4cl mørk rom",
+        "1 limebåt",
+        "2 ss sukker",
+        "8 cl ingefærøl"
+      ],
+      "directions" : [
+        "Tilsett rommen i et høyt glass med is",
+        "Press juicen av limebåten, og legg båten i glasset",
+        "Topp opp med ingefærøl",
+        "Server kald!"
+      ]
+    }, {
+      "id" : 3,
+      "name" : "Old Fashioned",
+      "pictureURL" : "https://www.thecocktaildb.com/images/media/drink/vrwquq1478252802.jpg",
+      "description" : "For deg med klassiske tendenser",
+      "portion" : 1,
+      "tags" : ["bitter", "tung", "sprudlende"],
+      "ingredients" : [
+        "4cl bourbon whiskey",
+        "2 dæsj bitters",
+        "1 sukkerbit",
+        "appelsinskall til pynt",
+        "cocktailbær til pynt"
+      ],
+      "directions" : [
+        "Ha sukkerbiten i et glass, og la det trekke inn bitters",
+        "Ha i en skvett vann, og løs opp sukkeret",
+        "Fyll glasset med isbiter, og ha i whiskey",
+        "Pynt med appelsinskall og cocktailbær"
+      ]
+    }, {
+      "id" : 4,
+      "name" : "Negroni",
+      "pictureURL" : "https://www.thecocktaildb.com/images/media/drink/qgdu971561574065.jpg",
+      "description" : "En bitter drikk for store barn",
+      "portion" : 1,
+      "tags" : ["bitter", "tung", "krydret"],
+      "ingredients" : [
+        "4 cl gin",
+        "4 cl campari",
+        "4 cl søt (rød) vermouth",
+        "Appelsinskall til pynt"
+      ],
+      "directions" : [
+        "Bland i alkoholen i ett glass med is",
+        "Pynt med appelsinskallet"
+      ]
+    }, {
+      "id" : 5,
+      "name" : "Whiskey Sour",
+      "pictureURL" : "https://www.thecocktaildb.com/images/media/drink/hbkfsh1589574990.jpg",
+      "description" : "En klassiker for deg som liker en sterk drink.",
+      "portion" : 1,
+      "tags" : ["sur", "fyldig", "frisk"],
+      "ingredients" : [
+        "4cl hvit rom",
+        "Saften av 1/2m sitron",
+        "1/2 ss sukker",
+        "sitronskall til pynt",
+        "cocktailbær til pynt"
+      ],
+      "directions" : [
+        "Rist whiskey, sitronsaft og sukker i en shaker med is",
+        "Hell i et glass med is",
+        "Pynt og server"
+      ]
+    }, {
+      "id" : 6,
+      "name" : "Gin Fizz",
+      "pictureURL" : "https://www.thecocktaildb.com/images/media/drink/drtihp1606768397.jpg",
+      "description" : "Den sprudler... hva mer trenger du?",
+      "portion" : 1,
+      "tags" : ["sprudlende", "lett", "frisk", "sur"],
+      "ingredients" : [
+        "4cl hvit rom",
+        "Saften av 1/2m sitron",
+        "1/2 ss sukker",
+        "sodavann",
+        "sitronskall til pynt"
+      ],
+      "directions" : [
+        "Shake gin, sitronsaft og sukker med is",
+        "Sil drinken i et glass, og topp opp med sodavann",
+        "Pynt med sitronskall"
+      ]
+    }, {
+      "id" : 7,
+      "name" : "Espresso Martini",
+      "pictureURL" : "https://www.thecocktaildb.com/images/media/drink/n0sx531504372951.jpg",
+      "description" : "Kjærlighetbarnet til 007 og en byråkrat",
+      "portion" : 1,
+      "tags" : ["tung", "bitter", "søt"],
+      "ingredients" : [
+        "4 cl vodka",
+        "1 cl kaffelikør",
+        "3 cl konsentrert kaffe",
+        "1/2 cl sukkerlake",
+        "kaffebønne til pynt"
+      ],
+      "directions" : [
+        "Shake alle ingrediensene med is",
+        "Sil drinken i et cocktailglass",
+        "Pynt med kaffebønnen og server"
+      ]
+    }, {
+      "id" : 8,
+      "name" : "Moscow Mule",
+      "pictureURL" : "https://www.thecocktaildb.com/images/media/drink/3pylqc1504370988.jpg",
+      "description" : "En moderne klassiker!",
+      "portion" : 1,
+      "tags" : ["krydret", "sur", "frisk", "lett", "sprudlende"],
+      "ingredients" : [
+        "4 cl vodka",
+        "4 cl limesaft",
+        "12 cl ingefærøl",
+        "limebåt"
+      ],
+      "directions" : [
+        "Hell vodka og ingefærøl i et høyt glass med is",
+        "Ha i limesaften",
+        "Pynt med limebåten, og server"
+      ]
+    }, {
+      "id" : 9,
+      "name" : "Gin and Tonic",
+      "pictureURL" : "https://royaldesign.no/image/3/orrefors-gin-tonic-glass-64-cl-4-pk-1",
+      "description" : "",
+      "portion" : 1,
+      "tags" : ["krydret", "lett", "frisk", "sprudlende"],
+      "ingredients" : [
+        "4cl gin",
+        "tonic",
+        "pynt basert på smaksprofil"
+      ],
+      "directions" : [
+        "Ha gin i et høy glass med is",
+        "Topp opp med en passende tonic",
+        "Dekorer med passende pynt",
+        "Server kald"
+      ]
+    }, {
+      "id" : 10,
+      "name" : "Long Island Iced Tea",
+      "pictureURL" : "https://www.thecocktaildb.com/images/media/drink/wx7hsg1504370510.jpg",
+      "description" : "For deg som ikke klarer å bestemme deg for hvilke sprit du vil bli drita på.",
+      "portion" : 1,
+      "tags" : ["søt", "frisk", "sprudlende", "sur"],
+      "ingredients" : [
+        "1 cl lys rom",
+        "1 cl gin",
+        "1 cl vodka",
+        "1 cl tequila",
+        "1 cl appelsinlikør",
+        "4 cl sourmix",
+        "Cola",
+        "sitronskall til pynt"
+      ],
+      "directions" : [
+        "Ha alkoholen i et høyt glass med is",
+        "Rør inn sourmix",
+        "Topp opp med litt cola",
+        "Pynt med sitronskall og server kald"
+      ]
+    }, {
+      "id" : 11,
+      "name" : "Mint Julep",
+      "pictureURL" : "https://www.thecocktaildb.com/images/media/drink/squyyq1439907312.jpg",
+      "description" : "En perfekt drink for varme sommerdager",
+      "portion" : 1,
+      "tags" : ["søt", "krydret", "frisk", "lett", "is"],
+      "ingredients" : [
+        " 6 cl bourbon whiskey",
+        "2 ss vann",
+        "1 ss sukker",
+        "Fersk mynte"
+      ],
+      "directions" : [
+        "Knus mynten med sukkeret og vann i et høyt glass",
+        "Fyll glasset med knyst is",
+        "Ha i bourbon og rør godt",
+        "Pynt med en kvast mynte og server kald"
+      ]
+    }, {
+      "id" : 12,
+      "name" : "Gløgg",
+      "pictureURL" : "https://www.aperitif.no/storage/image/core_files/2015/3/2/5fbe933e5e13f2854ea1f9f986b844eb/jpg/aperitif/article_details_medium/original.webp",
+      "description" : "For en ekstra varm julekveld...",
+      "portion" : 8,
+      "tags" : ["krydret", "tung", "søt"],
+      "ingredients" : [
+        "75 cl rødvin",
+        "10 cl portvin",
+        "6 cl cognac",
+        "2 dl brunt sukker",
+        "2 kanelstenger",
+        "1 bit fersk ingefær",
+        "20 nellikspiker",
+        "Appelsinskall"
+      ],
+      "directions" : [
+        "Varm opp halvparten av vinen med krydderet",
+        "Når sukkeret har løst seg, ha i appelsinskallet",
+        "Varm opp med resten av alkoholen uten at det koker",
+        "Server med rosiner og mandler"
+      ]
+    }, {
+      "id" : 13,
+      "name" : "The Long Hello",
+      "pictureURL" : "https://www.thecocktaildb.com/images/media/drink/squyyq1439907312.jpg",
+      "description" : "Perfekt som velkomstdrink i julen",
+      "portion" : 1,
+      "tags" : ["krydret", "firsk", "sprudlende", "fyldig"],
+      "ingredients" : [
+        "4 cl calvados, eplesprit",
+        "2 cl hylleblomstlikør",
+        "Bitters",
+        "Cremant",
+        "Muskatnøtt"
+      ],
+      "directions" : [
+        "Shake calvados med likøren og butters med is",
+        "Ha i et kuppglass, og topp opp med cremant",
+        "Riv litt muskatnøtt på toppen",
+        "Server kald",
+        "Pynt med en kvast mynte og en limebåt"
+      ]
+    }, {
+      "id" : 14,
+      "name" : "Aperol Spritz",
+      "pictureURL" : "https://www.aperitif.no/storage/image/core_files/2015/3/2/1cbf51bbfb5874985681115d53c154aa/jpg/aperitif/article_details_medium/original.webp",
+      "description" : "For den perfekte sommerkvelden...",
+      "portion" : 1,
+      "tags" : ["bitter", "lett", "sprudlende", "søt"],
+      "ingredients" : [
+        "4 cl bitter appelsinlikør",
+        "6 cl prosecco",
+        "Appelsinbåt til pynt"
+      ],
+      "directions" : [
+        "Ha appelsinlikøren i et vinglass med is",
+        "Topp opp med prosseccoen",
+        "Pynt med appelsinskall og server kald"
+      ]
+    }, {
+      "id" : 15,
+      "name" : "Bee's Knees",
+      "pictureURL" : "https://www.aperitif.no/storage/image/core_files/2022/3/19/9f3f39bcf99bc497a3fb12b4923efb55/jpg/aperitif/article_details_medium/Bee's%20Knees.webp",
+      "description" : "En sommerlig drink med honning",
+      "portion" : 1,
+      "tags" : ["sur", "lett", "frisk", "søt"],
+      "ingredients" : [
+        "4 cl gin",
+        "3 cl sitronsaft",
+        "1 cl honningsirup"
+      ],
+      "directions" : [
+        "Shake ingrediensen godt med is",
+        "Ha i et coupeglass",
+        "Ha gjerne i sodavann",
+        "Server kald"
+      ]
+    }, {
+      "id" : 16,
+      "name" : "Lennart",
+      "pictureURL" : "https://www.aperitif.no/storage/image/core_files/2022/1/24/30b0b2e29cdeb59ab70a7089fee38de1/jpg/aperitif/article_details_medium/Lennart.webp",
+      "description" : "",
+      "portion" : 1,
+      "tags" : ["søt", "lett", "frisk", "sprudlende"],
+      "ingredients" : [
+        "2 cl vodka",
+        "4 cl pærebrandy",
+        "Sitronbrus",
+        "Limekonsentrat",
+        "Limeskive"
+      ],
+      "directions" : [
+        "Ha vodka og brandy i et høyt glass med is",
+        "Ha i en dæsj limekonsentrant",
+        "Topp opp med sitronbrus",
+        "Pynt med limeskive og server"
+      ]
+    }, {
+      "id" : 17,
+      "name" : "Sangria",
+      "pictureURL" : "https://www.aperitif.no/storage/image/core_files/2018/3/26/f8e96a806e6b119c0e0a59c3ada7bf9b/jpg/aperitif/article_details_medium/phpt1h8ex.webp",
+      "description" : "Garantert fulltreffer som velkomstdrink",
+      "portion" : 10,
+      "tags" : ["søt", "frisk", "fyldig", "sprudlende"],
+      "ingredients" : [
+        "1 l rødvin",
+        "1.25 dl sukker",
+        "2 dl spansk brandy",
+        "1 dl appelsinlikør",
+        "1 sitron, ferkspresset",
+        "1 appelsin, ferskpresset",
+        "5 dl sodavann",
+        "Appelsinskiver"
+
+      ],
+      "directions" : [
+        "Løs opp sukkeret i litt av rødvinnen i en stor skål",
+        "Tilsett resten av alkholen, sitrussaften og appelsinskall",
+        "Rør godt og topp opp med sodavann",
+        "Server kaldt i vinglass",
+        "Pynt med en kvast mynte og en limebåt"
+      ]
+    }, {
+      "id" : 18,
+      "name" : "Hanky Panky",
+      "pictureURL" : "https://www.aperitif.no/storage/image/core_files/2022/1/26/f6ef66ae1dba1c044111cdd4615effce/jpg/aperitif/article_details_medium/Hanky%20Panky%20drinkoppskrift.webp",
+      "description" : "En klassiker fra London",
+      "portion" : 1,
+      "tags" : ["krydret", "fyldig", "frisk"],
+      "ingredients" : [
+        "4 cl gin",
+        "4 cl rød vermouth",
+        "1 dæsj Fernet Branca", //TODO: navn på alkohol
+        "Appelsinskall til pynt"
+      ],
+      "directions" : [
+        "Fyll ett røreglass med is og alkoholen. Rør i 20 sekunder",
+        "Sil over i et avkjøpt coupeglass",
+        "Pynt med appelsinskall og server"
+      ]
+    }, {
+      "id" : 19,
+      "name" : "Tequila Sunrise",
+      "pictureURL" : "https://www.aperitif.no/storage/image/core_files/2021/7/19/b21b35893fdf7eff66572b7c935ce47b/jpg/aperitif/article_details_medium/iStock-667580750.webp",
+      "description" : "",
+      "portion" : 1,
+      "tags" : ["søt", "lett", "frisk", "sprudlende"],
+      "ingredients" : [
+        "4 cl tequila",
+        "4 cl appelsinsaft",
+        "1 dæsj grenadine"
+      ],
+      "directions" : [
+        "Hell grenadin langs kanten til høyt glass",
+        "Hell juice og tequila på tilsvarende måte slik at bunnen forblir rød",
+        "Server kaldt"
+      ]
+    }, {
+      "id" : 20,
+      "name" : "Margarita",
+      "pictureURL" : "https://www.aperitif.no/storage/image/core_files/2021/9/13/88c63dbcc58979e00ab190740ea1e0a3/jpg/aperitif/article_details_medium/iStock-672200998.webp",
+      "description" : "",
+      "portion" : 1,
+      "tags" : ["salt", "sur", "lett", "frisk", "is"],
+      "ingredients" : [
+        "1 cl appelsinlikør",
+        "3 cl tequila",
+        "1 cl limesaft",
+        "Salt",
+        "Limebåt"
+      ],
+      "directions" : [
+        "Fukt kanten til et kaldt cocktailglass med lime, og dyp glasset i salt",
+        "Shake væsken i med isbiter",
+        "Sil over i cocktailglasset",
+        "Server pyntet med en limebåt",
+        "Pynt med en kvast mynte og en limebåt"
+      ]
+    }
+  ]
+}
